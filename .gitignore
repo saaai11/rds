@@ -1,0 +1,37 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Ignore all the dependencies installed by maven or gradle
+.m2/
+
+#Logs and Temporory files
+logs/
+*.log
+
+#Ignore sensitive application properties
+application.properties
+application-*.properties
+#environment properties/variables files
+.env
+
+#lombok generated files
+.lombok/
+
