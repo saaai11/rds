@@ -28,7 +28,9 @@ pipeline{
             }
             }
             stage("Push"){
-                        sh 'docker push saai11/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}'
+            steps{
+                 sh 'docker push saai11/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}'
+            }
             }
         }
 
