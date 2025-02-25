@@ -13,7 +13,7 @@ import java.util.List;
 public class OrderController {
     @GetMapping()
     public List<Integer> getOrders(){
-        System.out.println("Orders gets");
+        System.out.println("Orders get");
         return new ArrayList<>(Arrays.asList(1,2,3));
     }
 }
