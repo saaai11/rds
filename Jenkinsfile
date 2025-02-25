@@ -6,9 +6,9 @@ pipeline {
     VERSION = "${env.BUILD_ID}"
   }
 
-  tools {
-    maven "Maven"
-  }
+//   tools {
+//     maven "Maven"
+//   }
 
   stages {
     stage('Maven Build'){
