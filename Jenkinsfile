@@ -9,6 +9,10 @@ pipeline {
 //   tools {
 //     maven "Maven"
 //   }
+    triggers {
+        githubPush()
+    }
+
 
   stages {
     stage('Maven Build'){
